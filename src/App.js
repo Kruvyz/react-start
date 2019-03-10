@@ -1,10 +1,8 @@
 import React from 'react';
 import './App.css';
+import PageWrapper from './components/pages/PageWrapper';
+// import { connect } from 'react-redux'
 
-const App = () => (
-  <div className="App">
-    <h1> Hello, World! </h1>
-  </div>
-);
+const App = () => <PageWrapper />;
 
 export default App;
